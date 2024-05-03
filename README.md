@@ -1,63 +1,32 @@
 # Bank transaction
 
-This code is a simple project to get an API with a list of fictitious transactions. 
+This code is a simple project to get an API with a list of fictitious transactions and display it depending on how the user prefers. 
 
 
 ## Description
-By using and MVC these transactions can be viewed by by entering the transaction menu. There you can also store rules of how you want to group transaction. For example you can store a rule that every transaction labeled "Ica" and "Coop" will have a 
-An in-depth paragraph about your project and overview of use.
 
-## Getting Started
+By using MVC these transactions can be viewed by by entering the transaction menu. There you can also store rules of how you want to group transaction. For example you can store rules that every transaction labeled "Ica" and "Coop" will have the category as food. Then a summary of all the transactions and the users grouped transaction can be displayed.
 
-### Dependencies
+## Showcase
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+This project was designed to demonstrate:
+
+1. C# MVC
+2. API
+3. JavaScript
+4. SQL
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Download as zip
+* Open with Visual Studio
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* "Dotnet run" the program
+* Open website as local host, ex "http://localhost:5255"
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Oskar Jansson
+https://www.linkedin.com/in/oskar-jansson1/
