@@ -1,0 +1,45 @@
+@* @{
+ViewData["Title"] = "GetAPI";
+}
+<div class="text-center">
+<h1 class="display -4">API Received </h1>
+@Html.ActionLink("Go to homepage", "Index");
+@Html.ActionLink("View Transactions", "DisplayTransactions");
+@Html.ActionLink("View Summary", "DisplaySummary");
+
+*@
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - YourAppName</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-fallback-test-class="sr-only"
+            asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+    </environment>
+</head>
+
+<body>
+
+    @{
+        ViewData["Title"] = "GetAPI";
+    }
+    <div class="text-center">
+        <h1 class="display-4">API Received </h1>
+        @Html.ActionLink("Go to homepage", "Index", null, new { @class = "btn btn-primary" });
+        @Html.ActionLink("View Transactions", "DisplayTransactions", null, new { @class = "btn btn-success" });
+        @Html.ActionLink("View Summary", "DisplaySummary", null, new { @class = "btn btn-info" });
+    </div>
+</body>
+
+</html>
