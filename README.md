@@ -1,11 +1,13 @@
 # Bank transaction
 
-This code is a simple project to get an API with a list of fictitious transactions and display it depending on how the user prefers. 
-
+This project utilizes an API containing a list of fictitious transactions and displays them according to the user's preferences.
 
 ## Description
 
-By using MVC these transactions can be viewed by by entering the transaction menu. There you can also store rules of how you want to group transaction. For example you can store rules that every transaction labeled "Ica" and "Coop" will have the category as food. Then a summary of all the transactions and the users grouped transaction can be displayed.
+By employing the MVC (Model-View-Controller) architecture, users can access the transactions by navigating to the transaction menu. Within this menu, users have the option to define rules for grouping transactions according to their preferences. 
+
+For instance, users can establish rules such that transactions labeled as 'Ica' and 'Coop' are categorized as food. Subsequently, both a summary of all transactions and the user-defined grouped transactions can be displayed.
+
 
 ## Showcase
 
@@ -16,12 +18,12 @@ This project was designed to demonstrate:
 3. JavaScript
 4. SQL
 
-### Installing
+## Installing
 
 * Download as zip
 * Open with Visual Studio
 
-### Executing program
+## Executing program
 
 * "Dotnet run" the program
 * Open website as local host, ex "http://localhost:5255"
